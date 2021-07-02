@@ -68,8 +68,9 @@ public class Converter {
 			  //you have left the loop
 			  System.out.println("you have left the loop!");
 			  menuSelection1 = "4";
+			  scan.close();
 		  }
-		//scan.close();
+		
 		
 	
 	}
