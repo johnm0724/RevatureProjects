@@ -22,29 +22,31 @@ public static void main(String[] args){
 		  if( "1".equals(menuSelection1)) {
 				
 			//some code to call a method to work with vol converter
+			  
 			//String menuSelection1 = scan.nextLine(); user input for method
-			  /**
-			   * if (some condition is true){
-			   * 
-			   * System.out.println("Volume Converter menu:");
-			   * System.out.println("1 Cups to Teaspoons:");
-			   * System.out.println("2 US gallons to Imperial gallons:");
-			   * 
-			   * 
-			   * 
-			   *      if(some condition is true){
-			   *      System.out.println("You have picked Cups to Teaspoons:");
-			   *      System.out.println("Enter number of cups to convert:");
-			   *      String line = scan.nextLine();   this line will be replaced with a method
-			   *      
-			   * }
-			   * 
-			   *     if(some condition is true ){
-			   *       System.out.println("You have picked US gallons to Imperial gallons:");
-			   *      System.out.println("Enter number of gallons to convert:");
-			   *      String line = scan.nextLine();   this line will be replaced with a method
-			   * }
-			   */
+			  
+			    if ("1".equals (menuSelection1)){
+			    
+			    System.out.println("Volume Converter menu:");
+			    System.out.println("1 Cups to Teaspoons:");
+			    System.out.println("2 US gallons to Imperial gallons:");
+			    
+			    
+			    
+			         if("2".equals(menuSelection1)){
+			        System.out.println("You have picked Cups to Teaspoons:");
+			         System.out.println("Enter number of cups to convert:");
+			       //this line will be replaced with a method
+			         String line = scan.nextLine();   
+			         
+			  }
+			   
+			        if(some condition is true ){
+			          System.out.println("You have picked US gallons to Imperial gallons:");
+			         System.out.println("Enter number of gallons to convert:");
+			         String line = scan.nextLine();   this line will be replaced with a method
+			    }
+			   
 			}
 		  else if( "2".equals(menuSelection1)) {
 			//some code to call a method to work with dis converter

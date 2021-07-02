@@ -3,7 +3,7 @@ package main;
 public class VolCon {
 
 	
-	
+	public VolCon() {
 	//System.out.println("You picked number:" + menuSelection1);
 	//System.out.println("Welcome to the Cups to Teaspoons converter how many cups do you want to convert.");
 	//String line1 = scan.nextLine();
@@ -12,7 +12,7 @@ public class VolCon {
 	//System.out.println(line1 + " Cups are " +  (cupTemp * 48)  + " Teaspoons." );
     // System.out.println("Please enter a number 1 to 4");
      // menuSelection1 = scan.nextLine();
-	
+	}
 	
 	
 	//System.out.println("You picked number:" + menuSelection1);
